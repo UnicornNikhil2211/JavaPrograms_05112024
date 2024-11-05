@@ -13,5 +13,13 @@ public class Main {
 
         System.out.println("Added one more file.");
 
+        Student std = new Student(102, "Nikhil Borkar", "IT");
+
+        System.out.println("Student Details:");
+        System.out.println("Id : " + std.getId() );
+        System.out.println("Name : " + std.getName());
+        System.out.println("Department : " + std.getDept());
+
+
     }
 }
