@@ -10,5 +10,8 @@ public class Main {
         System.out.println("It is an initial commit.");
 
         System.out.println("This is my second commit with IntelliJ Idea.");
+
+        System.out.println("Added one more file.");
+
     }
 }
