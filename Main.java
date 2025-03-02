@@ -13,13 +13,18 @@ public class Main {
 
         System.out.println("Added one more file.");
 
-        Student std = new Student(102, "Nikhil Borkar", "IT");
+        Student std1 = new Student(101, "Nikhil Borkar", "IT");
 
         System.out.println("Student Details:");
-        System.out.println("Id : " + std.getId() );
-        System.out.println("Name : " + std.getName());
-        System.out.println("Department : " + std.getDept());
+        System.out.println("Id : " + std1.getId() );
+        System.out.println("Name : " + std1.getName());
+        System.out.println("Department : " + std1.getDept());
 
+        Student std2 = new Student(102, "Swapnil Borkar", "Economics");
 
+        System.out.println("Student Details:");
+        System.out.println("Id : " + std2.getId() );
+        System.out.println("Name : " + std2.getName());
+        System.out.println("Department : " + std2.getDept());
     }
 }
