@@ -26,5 +26,7 @@ public class Main {
         System.out.println("Id : " + std2.getId() );
         System.out.println("Name : " + std2.getName());
         System.out.println("Department : " + std2.getDept());
+
+        System.out.println("New feature branch added.");
     }
 }
